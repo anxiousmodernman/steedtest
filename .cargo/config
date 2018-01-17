@@ -1,5 +1,6 @@
 
 [build]
+target = "x86_64-unknown-linux-steed"
 rustflags = [
     "-C", "link-arg=-Wl,--build-id=none",
     "-C", "link-arg=-nostartfiles",
