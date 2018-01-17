@@ -1,0 +1,12 @@
+
+
+[dependencies.std]
+default-features = false
+#features = ["naive_alloc"]
+path = "/home/coleman/Code/Rust/steed"
+stage = 1
+
+#[dependencies.collections]
+
+
+
