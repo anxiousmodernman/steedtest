@@ -1,12 +1,27 @@
+[dependencies]
+#collections = {}
+#rand = {}
 
+[dependencies.compiler_builtins]
+features = ["mem"]
+git = "https://github.com/rust-lang-nursery/compiler-builtins"
+stage = 1
 
 [dependencies.std]
 default-features = false
-#features = ["naive_alloc"]
-path = "/home/coleman/Code/Rust/steed"
-stage = 1
+features = ["naive_ralloc"]
+git = "https://github.com/japaric/steed"
+stage = 0
 
-#[dependencies.collections]
+# WHAT
+#
+#[dependencies.std]
+#default-features = false
+##features = ["naive_alloc"]
+#path = "/home/coleman/Code/Rust/steed"
+#stage = 1
+#
+##[dependencies.collections]
 
 
 
